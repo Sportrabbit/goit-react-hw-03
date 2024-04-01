@@ -1,5 +1,5 @@
 import css from "./Contact.module.css";
-// import { FaPhone, FaUser } from "react-icons/fa";
+import { FaPhone, FaUser } from "react-icons/fa";
 
 export default function Contact({ id, name, number, deleteContact }) {
     const handleDelete = () => {
